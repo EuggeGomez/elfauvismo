@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAUVISMO: La explosión del Color y la Emoción</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Afacad:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="burger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        <a href="index.html" class="logo-fauvismo">
+            <img src="imagenes/logo-fauvismo.png" alt="logo del sitio" class="logo-img">
+        </a>
+        
+        <div class="nav-icons-container">
+            <nav class="menu">
+                <label for="menu-toggle" class="close-boton">X</label>
+                <ul class="desktop-menu-list">
+                    <li class="has-submenu">
+                        <a href="artistas.html"> Artistas</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="galeria.html">Galería</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="filosofia.html"> Filosofía</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="influencias.html">Influencias</a>
+                    </li>
+                    <li class="has-submenu">
+                        <a href="recursos.html"> Recursos</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="search.html" class="boton-search">
+                <img src="imagenes/search-fauvismo.png" class="icono-search" alt="busqueda">
+            </a>
+            <a href="fav.html" class="boton-fav">
+                <img src="imagenes/fav-fauvismo.png" class="icono-fav" alt="favorito">
+            </a>
+            <a href="login.html" class="boton-usuario">
+                <img src="imagenes/matisse-icon.png" class="icono-user" alt="usuario">
+            </a>
+        </div>
+    </header>
+   <main>
+        <section class="galeria-section">
+            <h2>Galería de Obras Fauvistas</h2>
+            <ul class="galeria">
+                <li class="gallery-item" data-index="0">
+                    <img src="imagenes/1armonia_en_rojo-matisse.webp" alt="Armonía en Rojo - Henri Matisse">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Armonía en Rojo</h3>
+                            <p>Henri Matisse (1908)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="1">
+                    <img src="imagenes/2la ventaana abierta-matisse.webp" alt="La Ventana Abierta - Henri Matisse">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>La Ventana Abierta</h3>
+                            <p>Henri Matisse (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="2">
+                    <img src="imagenes/3la_alegria_de_vivir-matisse.webp" alt="La Alegría de Vivir - Henri Matisse">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>La Alegría de Vivir</h3>
+                            <p>Henri Matisse (1905-1906)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="3">
+                    <img src="imagenes/4LADANZA-matisse.jpg" alt="La Danza - Henri Matisse">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>La Danza</h3>
+                            <p>Henri Matisse (1909-1910)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="4">
+                    <img src="imagenes/6Matisse-Woman-with-a-Hat.jpg" alt="Mujer con Sombrero - Henri Matisse">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Mujer con Sombrero</h3>
+                            <p>Henri Matisse (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="5">
+                    <img src="imagenes/5maqueta_noche_de_navidad-matisse.webp" alt="Maqueta Noche de Navidad - Henri Matisse">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Maqueta Noche de Navidad</h3>
+                            <p>Henri Matisse (1952)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="6">
+                    <img src="imagenes/7curva_del_camino-derain.webp" alt="La Curva del Camino - André Derain">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>La Curva del Camino</h3>
+                            <p>André Derain (1906)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="7">
+                    <img src="imagenes/8derain2-cke.webp" alt="Mujer con Camisa - André Derain">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Mujer con Camisa</h3>
+                            <p>André Derain (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="8">
+                    <img src="imagenes/9la_danza_baile_de_la_vida-derain.webp" alt="La Danza - Baile de la Vida - André Derain">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>La Danza - Baile de la Vida</h3>
+                            <p>André Derain (1906)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="9">
+                    <img src="imagenes/10puente_de_charing_cross-derain.jpg" alt="El Puente de Charing Cross - André Derain">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>El Puente de Charing Cross</h3>
+                            <p>André Derain (1906)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="10">
+                    <img src="imagenes/11retrato_de_matisse-Derain.jpg" alt="Retrato de Henri Matisse - André Derain">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Retrato de Henri Matisse</h3>
+                            <p>André Derain (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="11">
+                    <img src="imagenes/12portrait-of-derain-vlaminck.png" alt="Retrato de André Derain - Maurice de Vlaminck">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Retrato de André Derain</h3>
+                            <p>Maurice de Vlaminck (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="12">
+                    <img src="imagenes/13autumn-vlaminck.png" alt="Autumn - Maurice de Vlaminck">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Autumn</h3>
+                            <p>Maurice de Vlaminck (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="13">
+                    <img src="imagenes/14restaurant_de_la_machine_bougival-vla.png" alt="Restaurant de la Machine Bougival - Maurice de Vlaminck">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Restaurant de la Machine Bougival</h3>
+                            <p>Maurice de Vlaminck (1905)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="14">
+                    <img src="imagenes/15maurice-the-orchard-cke.webp" alt="The Orchard - Maurice de Vlaminck">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>The Orchard</h3>
+                            <p>Maurice de Vlaminck (1906)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="15">
+                    <img src="imagenes/16chaville-vlaminck.webp" alt="Chaville - Maurice de Vlaminck">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Chaville</h3>
+                            <p>Maurice de Vlaminck (1906)</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="gallery-item" data-index="16">
+                    <img src="imagenes/17veleros_de_papel-vlaminck.webp" alt="Veleros de Papel - Maurice de Vlaminck">
+                    <div class="overlay">
+                        <div class="overlay-text">
+                            <h3>Veleros de Papel</h3>
+                            <p>Maurice de Vlaminck (1905)</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    
+    <div id="lightbox-overlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-info">
+                <p id="lightbox-title"></p>
+                <p id="lightbox-artist"></p>
+                <p id="lightbox-year"></p>
+                <p id="lightbox-description"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+<footer>
+    <div class="footer-content">
+        <p>© 2025 FAUVISMO. Todos los derechos reservados | Diseñado por Maria Eugenia Gómez| Proyecto Integrador-UP </p>
+        <p>Contacto: <a href="mailto:info@fauvismo.com" class="footer-link">info@fauvismo.com</a></p>
+    </div>
+</footer>
+</html>

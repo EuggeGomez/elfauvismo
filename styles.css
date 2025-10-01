@@ -484,20 +484,21 @@ footer {
     opacity: 1;
 }
 
-.overlay-text {
+. {
     text-align: center;
     padding: 20px;
-    color: #f2f2f2;
 }
 
 .overlay-text h3 {
     margin: 0 0 5px;
     font-size: 1.5rem;
+    color: #f2f2f2;
 }
 
 .overlay-text p {
     margin: 0;
     font-size: 1rem;
+    color: #f2f2f2;
 }
 
 
@@ -1182,4 +1183,5 @@ width: 250px;
     text-decoration: underline;
 
 }
+
 

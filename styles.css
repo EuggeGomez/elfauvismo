@@ -84,7 +84,7 @@ header {
 
 /* --------------Estilos de la sección HERO---------- */
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imagenes/3la_alegria_de_vivir-matisse.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('3la_alegria_de_vivir-matisse.webp');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -1179,4 +1179,5 @@ width: 250px;
 }
 .register-link a:hover {
     text-decoration: underline;
+
 }
